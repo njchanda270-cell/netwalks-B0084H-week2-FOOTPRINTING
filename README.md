@@ -21,31 +21,31 @@ Whois, WhatWeb, Nslookup, Curl -I, Wafw00f v2.4.2, DNSRecon, Zenmap / Nmap, Ipco
 ## 3. Findings - External Footprinting
    
 ### 3.1 Task 1: Whois - Domain Registration
-![Whois](images/01-Whois.png)
+![Whois](images/Whois.png)
 
 ### 3.2 Task 2: WhatWeb - Technology Fingerprinting
-![WhatWeb](images/02-WhatWeb.png)
+![WhatWeb](images/WhatWeb.png)
 
 ### 3.3 Task 3: Nslookup - DNS Resolution
-![Nslookup](images/03-Nslookup.png)
+![Nslookup](images/Nslookup.png)
 
 ### 3.4 Task 4: Curl -I - HTTP Headers
-![Curl](images/04-Curl.png)
+![Curl](images/Curl.png)
 
 ### 3.5 Task 5: Wafw00f - Web Application Firewall Detection
-![Wafw00f](images/05-Wafw00f.png)
+![Wafw00f](images/Wafw00f.png)
 
 ### 3.6 Task 6: DNSRecon - DNS Enumeration
-![DNSRecon](images/06-DNSRecon.png)
+![DNSRecon](images/DNSRecon.png)
 
 
 ## 4. Findings - Internal Network Discovery
 
 ### 4.1 Ipconfig - Local Configuration
-![Ipconfig](images/07-lpconfig.png)
+![Ipconfig](images/lpconfig.png)
 
 ### 4.2 Zenmap - Network Scan
-![Zenmap Hosts](images/08-ZenmapHosts.png)
+![Zenmap Hosts](images/ZenmapHosts.png)
 
 *Note on MAC Addresses:* MAC addresses did not come up when the ping scan was run. Only IP addresses and host-up status were recorded. No MAC addresses were enumerated. This is expected behaviour for a ping scan, which uses ICMP Echo to determine host availability and does not perform ARP-based MAC resolution.
 
